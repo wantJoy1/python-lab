@@ -1,0 +1,4 @@
+list = [1,2,3,4,5]
+sum(list) # 15
+sum = sum(list) # okay
+sum(list) # TypeError: 'int' object is not callable

@@ -1,0 +1,2 @@
+# pandas + odfpy
+df = pd.read_excel("sample.ods", engine="odf")

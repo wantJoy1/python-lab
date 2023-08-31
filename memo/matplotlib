@@ -1,0 +1,13 @@
+import pandas
+import matplotlib.pyplot
+
+pandas.read_csv("sample.csv", index_col=0)
+pandas.set_option("display.unicode.east_asian_width", True)
+
+df[row_name]
+df.loc[column_name]
+
+df[["Language", "Math"]]
+
+df.to_save("output.csv", index=False, header=True)
+plt.savefig("graph.png")

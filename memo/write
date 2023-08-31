@@ -1,0 +1,2 @@
+with open("download.html", "wt") as fp:
+    fp.write(response.text)

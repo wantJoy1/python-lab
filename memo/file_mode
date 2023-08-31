@@ -1,0 +1,8 @@
+r: read only
+r+: read and append
+w: write only(not append)
+w+: write only(not append)
+a: append only
+a+: append only
+
+it's unnecessary to use w+ and a+

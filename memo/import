@@ -1,0 +1,4 @@
+"other_module.py"
+import other_module
+
+other_module.function1()

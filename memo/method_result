@@ -1,0 +1,6 @@
+rows = sheet.iter_rows
+type(rows) == class 'method'
+
+rows = sheet.iter_rows()
+type(rows) == class 'generator'
+

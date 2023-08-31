@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Score Notification</title>
+    <meta charset="UTF-8">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        #info {
+            justify-content: space-around;
+            flex-direction: row;
+            display: flex;
+        }
+
+        table {
+            border: solid black 2px;
+            margin: auto;
+        }
+
+        thead {
+            border: solid black 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Score Notification</h1>
+    <div id="info">
+        <span id="student_id">Student ID</span>
+        <span id="name">Name</span>
+        <span id="date">Date</span>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Information Management Strategy 2</th>
+                <th>{% student_id %}</th>
+                <th>{% name %}</th>
+                <th>{% score %}</th>
+            </tr>
+        </tbody>
+    </table>
+
+</body>

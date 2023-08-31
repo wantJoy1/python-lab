@@ -1,0 +1,7 @@
+Arch Linuxにおいてはpip上のパッケージがAURで提供される。
+例として
+pip install matplotlib => pacman -S python-matplotlib
+pip install pandas => pacman -S python-pandas
+のようにインストールする。
+
+しかし、japanize_matplotlib等、AURでは提供されていないパッケージもあるため、環境構築の際は注意を要する
