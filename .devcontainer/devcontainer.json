@@ -7,6 +7,13 @@
 	"features": {
 		"ghcr.io/devcontainers-extra/features/uv:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
