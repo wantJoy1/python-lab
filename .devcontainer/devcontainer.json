@@ -12,8 +12,16 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"charliermarsh.ruff"
-			]
+				"charliermarsh.ruff",
+				"astral-sh.ty"
+			],
+			"settings": {
+				"python.languageServer": "None",
+				"[python]": {
+					"editor.formatOnSave": true,
+					"editor.defaultFormatter": "charliermarsh.ruff"
+				}
+			}
 		}
 	}
 
