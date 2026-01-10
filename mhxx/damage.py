@@ -14,10 +14,11 @@ ELEMENT_SHARPNESS_OFFSETS: dict[str, int] = {
     "purple": 1.2,
 }
 
+
 def calc_gunner_damage(attack, critical):
     critical_offset = calc_critical_offset(critical)
     return (attack + 15) * critical_offset
-    
+
 
 def calc_critical_offset(critical):
     return 1 + (NORMAL_CRITICAL_OFFSET * critical / 100.0)
@@ -113,6 +114,7 @@ physicals: list[Weapon] = [
     # 479
     Weapon("ウンネフェル", 330, 0, 0, "purple")
 ]
+
 
 def main(weapons):
     for weapon in weapons:

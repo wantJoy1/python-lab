@@ -1,5 +1,6 @@
 from random import randint, sample
 
+
 def random() -> str:
     sentense = "モバイルバッテリー"
     random_size = randint(1, len(sentense))

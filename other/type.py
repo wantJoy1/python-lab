@@ -1,4 +1,5 @@
 def greeting(name: str) -> None:
-    print('Hello ' + name)
+    print("Hello " + name)
+
 
 greeting("neko")

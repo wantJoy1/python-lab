@@ -21,5 +21,3 @@ for values in df.values:
     print(html)
 
     pdfkit.from_string(html, f"save/{student_id}.pdf")
-        
-   
